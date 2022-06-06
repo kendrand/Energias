@@ -1,0 +1,69 @@
+<body id="solar">
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header><h1>Energía Solar</h1></header>
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" [routerLink]="['']"><button type="button" class="btn btn-primary">Inicio</button></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled"><button type="button" class="btn btn-outline-primary">Energía Solar</button></a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/hidraulica']"><button type="button" class="btn btn-primary">Energía Hidraulica</button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/eolica']"><button type="button" class="btn btn-primary">Energía Eólica</button></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" [routerLink]="['/solar']"><button type="button" class="btn btn-primary">Energía Geotérmica</button></a>
+        </li>
+    </ul>
+    <div class="row">
+        <div class="col-md-4">
+            <p>La energía solar es una energía renovable, obtenida a partir del aprovechamiento de la radiación electromagnética procedente del Sol. La radiación solar que alcanza la Tierra ha sido aprovechada por el ser humano desde la antigüedad, mediante diferentes tecnologías que han ido evolucionando. Hoy en día, el calor y la luz del Sol pueden aprovecharse por medio de diversos captadores como células fotoeléctricas.</p>
+            <p>Las diferentes tecnologías solares se pueden clasificar en pasivas o activas según como capturan, convierten y distribuyen la energía solar. Las tecnologías activas incluyen el uso de paneles fotovoltaicos y colectores solares térmicos para recolectar la energía. Entre las técnicas pasivas, se encuentran diferentes técnicas enmarcadas en la arquitectura bioclimática: la orientación de los edificios al Sol, la selección de materiales con una masa térmica favorable o que tengan propiedades para la dispersión de luz, así como el diseño de espacios mediante ventilación natural.</p>
+            <p>En 2011, la Agencia Internacional de la Energía afirmó que «El desarrollo de tecnologías solares limpias, baratas e inagotables supondrá un enorme beneficio a largo plazo. Aumentará la seguridad energética de los países mediante el uso de una fuente de energía local, inagotable y, aún más importante, independientemente de importaciones, aumentará la sostenibilidad, reducirá la contaminación, disminuirá los costes de la mitigación del cambio climático, y evitará la subida excesiva de los precios de los combustibles fósiles. Estas ventajas son globales. De esta manera, los costes para su incentivo y desarrollo deben ser considerados inversiones; deben ser realizadas de forma correcta y ampliamente difundidas».</p>
+        </div>
+        <div class="col-md-5">
+            <img  src="../../assets/sol01.jpg" width="75%" height="75%" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="card">
+                <img src="../../assets/sol02.jpg" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Situación en Chile</h5>
+                  <p class="card-text">Producción diaría en Kw/m2 en Chile</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="../../assets/sol03.jpg" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Planta solar en Atacama,Chile</h5>
+                  <p class="card-text">Esta zona del país genera un 42% de la energía solar de todo el país.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="../../assets/sol04.jpg" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Uso doméstico</h5>
+                  <p class="card-text">Los paneles también pueden aprovecharse a niveles mas locales que las grandes plantas solares</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6">
+            <p>Existen dos vías para obtener la energía del sol, la instalación de centrales termo solares o mediante la creación de plantas fotovoltaicas, a pesar de cumplir con el mismo objetivo y tener la misma fuente de energía (el sol), cada una tiene características y procesos muy diferentes:</p>
+            <p>Aunque ambos métodos son efectivos para generar energía eléctrica mediante el uso de recursos naturales, las plantas de energía fotovoltaica son muchos más accesibles y es más sencillo ubicarles en casi cualquier lugar, aunque para poder generar suficiente energía, requieren de grandes extensiones de terreno, por su parte las centrales de energía térmica, están sujetas a elementos como el clima o necesitan recepción directa de radiación solar para poder funcionar a su máxima potencia.</p>
+        </div>
+    </div>
+</body>
