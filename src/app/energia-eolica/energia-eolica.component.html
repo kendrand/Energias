@@ -1,0 +1,70 @@
+<body id="eolico">
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header><h1>Energía Eólica</h1></header>
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" [routerLink]="['']"><button type="button" class="btn btn-primary">Inicio</button></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/solar']"><button type="button" class="btn btn-primary">Energía Solar</button></a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/hidraulica']"><button type="button" class="btn btn-primary">Energía Hidraulica</button></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled"><button type="button" class="btn btn-outline-primary">Energía Eólica</button></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" [routerLink]="['/geotermica']"><button type="button" class="btn btn-primary">Energía Geotérmica</button></a>
+            </li>
+        </ul>
+        <div class="row">
+            <div class="col-md-4">
+                <p>La energía eólica es una fuente de energía renovable que se obtiene de la energía cinética del viento que mueve las palas de un aerogenerador el cual a su vez pone en funcionamiento una turbina que la convierte en energía eléctrica.</p>
+                <p>El proceso comienza cuando el aerogenerador se posiciona para aprovechar al máximo la energía del viento, usando los datos registrados por la veleta y anemómetro y girando sobre su torre. Después, el viento hace girar las palas que se conectan a un rotor que a su vez se conecta a una multiplicadora que eleva la velocidad de giro a miles de revoluciones por minuto. Esta energía cinética se transfiere al generador que la convierte en energía eléctrica que es conducida por el interior de la torre hasta su base, luego sigue por la subestación para que eleve su tensión y continúa hasta la red eléctrica para su posterior distribución.</p>
+                <p>Debido a sus características, esta es una de las energías limpias más usadas en el mundo (junto con la energía solar).</p>
+            </div>
+            <div class="col-md-5">
+                <img  src="../../assets/eo01.jpg" width="75%" height="75%" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="../../assets/eo02.jpg" class="card-img-top" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Comparativa</h5>
+                      <p class="card-text">Podemos apreciar el gran tamaño de las aspas de la torre eólica en comparación con una persona.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="../../assets/eo03.jpg" class="card-img-top" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Parque eólico en Chile. </h5>
+                      <p class="card-text">Parque Eólico San Juan: ubicado en Freirina, Región de Atacama,Chile</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="../../assets/eo04.jpg" class="card-img-top" alt="...">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Potencia eólica 2020</h5>
+                      <p class="card-text">Top 5 de países que mas gigavatios de energía eolica generaron en 2020</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <p>A nivel mundial, los paises con mayor generación de energía eólica son China y Estados Unidos.</p>
+                <p>China lidera la generación con 288,32 gigavatios generados, y Estados unidos le sigue con 122,32</p>
+            </div>
+        </div>
+</body>

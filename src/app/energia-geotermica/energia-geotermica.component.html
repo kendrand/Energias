@@ -1,0 +1,72 @@
+<body id="geo">
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header><h1>Energía Geotérmica</h1></header>
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" [routerLink]="['']"><button type="button" class="btn btn-primary">Inicio</button></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/solar']"><button type="button" class="btn btn-primary">Energía Solar</button></a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/hidraulica']"><button type="button" class="btn btn-primary">Energía Hidraulica</button></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/eolica']"><button type="button" class="btn btn-primary">Energía Eólica</button></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled"><button type="button" class="btn btn-outline-primary">Energía Geotérmica</button></a>
+        </li>
+    </ul>
+    <div class="row">
+        <div class="col-md-4">
+            <p>La energía geotérmica proviene de una fuente natural, que es la propia geología de la tierra, siendo más alta la temperatura conforme mayor sea la profundidad.</p>
+            <p>El uso que pueda darse a esta clase de energía dependerá de su temperatura. Cuando es alta, de entre 120ºC y 180ºC (aunque esta referencia es arbitraria y varía según la fuente consultada), puede aprovecharse para la generación de electricidad a nivel residencial e industrial. Sin embargo, a menor temperatura, su uso más apropiado es para sistemas de calefacción de uso doméstico.</p>
+            <p>Este tipo de energía, en suma, tiene tres principales usos: generación eléctrica, calefacción, y para sistemas de refrigeración mediante máquinas de absorción o bombas de frío geotérmicas.</p>
+        </div>
+<div class="col-md-5">
+            <img  src="../../assets/geo01.jpg" width="75%" height="75%" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="card">
+                <img src="../../assets/geo02.jpg" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Geiser</h5>
+                  <p class="card-text">Son lugares por donde se expulsa agua a altas temperaturas en conjunto con vapores de esta misma, presentan alta concentración de sales y sus temperaturas redondean los 100 °C</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="../../assets/geo03.jpg" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Volcán</h5>
+                  <p class="card-text">Un volcán consiste en una apertura en la corteza, generalmente de forma cónica, por la cual se expulsa roca fundida en conjunto con gases y ceniza.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="../../assets/geo04.jpg" class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Aguas termales</h5>
+                  <p class="card-text">consisten en afloramientos de agua natural a mayor temperatura de lo común, debido al contacto con algún sitio geotérmico.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6">
+            <p>Existen 4 distintos tipos de plantas geotermicas:</p>
+            <p>-Planta de vapor seco: Estas plantas utilizan turbinas diseñadas para trabajar con baja presión y una alta densidad del fluido geotérmico, también se utilizan condensadores con el fin de que el vapor sea lo más seco posible (alrededor del 99.995%) para evitar dañar el sistema. Finalmente el condensado resultante es reincorporado o se lleva a una torre de enfriamiento donde se evapora.</p>
+            <p>-Plantas flash: Funciona de manera similar a la planta de vapor seco, pero en vez de utilizar un condensador, el vapor se obtiene de un proceso llamado flashing, el vapor resultante puede reincorporarse a la fuente o se le pueden seguir aplicando flashings a menor presión.</p>
+            <p>-Plantas Binarias: Principalmente se utilizan para recursos de baja y media entalpía, la funcionalidad consiste en utilizar transferencia de calor y calentar fluidos en un sistema cerrado. Se busca que los fluidos tengan puntos de ebullición similares a los del recurso geotérmico.</p>
+            <p>-Plantas híbridas: Estas plantas utilizan un ciclo rankine tradicional en el proceso para poder aprovechar lo que normalmente serían pérdidas de calor y transformarlo en energía adicional. Este sistema se combina con otras plantas eléctricas, como por ejemplo plantas de concentración solar, generando un mejor aprovechamiento de los recursos.</p>
+        </div>
+    </div>
+</body>
