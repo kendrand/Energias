@@ -1,0 +1,36 @@
+<ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+        <a>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[0].img" alt="Random first slide">
+      </div>
+        </a>
+      <div class="carousel-caption">
+        <h3> {{images[0].nombre}}</h3>
+        <p>{{images[0].desc}}</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <a>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[1].img" alt="Random second slide">
+      </div>
+        </a>
+      <div class="carousel-caption">
+        <h3>{{images[1].nombre}}</h3>
+        <p>{{images[1].desc}}</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <a>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[2].img" alt="Random third slide">
+      </div>
+        </a>
+      <div class="carousel-caption">
+        <h3>{{images[2].nombre}}</h3>
+        <p>{{images[2].desc}}</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  

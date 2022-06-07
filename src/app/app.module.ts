@@ -9,6 +9,7 @@ import { EnergiaGeotermicaComponent } from './energia-geotermica/energia-geoterm
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarruselComponent } from './carrusel/carrusel.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     EnergiaHidraulicaComponent,
     EnergiaGeotermicaComponent,
     MenuComponent,
-    FooterComponent
+    FooterComponent,
+    CarruselComponent
   ],
   imports: [
     BrowserModule,
