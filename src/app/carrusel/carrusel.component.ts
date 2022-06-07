@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarruselComponent implements OnInit {
   images=[
-    {img:"../../assets/1.png", nombre:"el gato", desc:"aaaaaaa"},
-    {img:"../../assets/02.jpg", nombre:"no es un gato",desc:"bbbbbbb"},
-    {img:"../../assets/03.jpg", nombre:"definitivamente no un gato",desc:"ccccccc"}
+    {img:"../../assets/sol1.png"},
+    {img:"../../assets/agua1.png"},
+    {img:"../../assets/aire1.png"},
+    {img:"../../assets/geo1.png"},
+    {img:"../../assets/sol2.png"},
+    {img:"../../assets/agua2.png"},
+    {img:"../../assets/aire2.png"},
+    {img:"../../assets/geo2.png"}
   ]
   constructor() {
     
